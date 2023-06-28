@@ -1,4 +1,4 @@
-# FIFA_Bracket_Generator
+# Tournament-Bracket-Generator
 
 ### Run the code without IDE
 - Download the code 
