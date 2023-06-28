@@ -37,7 +37,6 @@ class Program
         // Simulate the round of 16 matches and advance teams to the quarterfinals
 
         var quarterfinalsBracket = autoService.SimulateRound16(final16Teams, commonService.GetEnumDescription(RoundTypeEnum.Round16));
-        var json = JsonSerializer.Serialize(quarterfinalsBracket);
 
         // Simulate the quarterfinal matches and advance teams to the semifinals
         var semifinalsBracket = autoService.OtherRound(quarterfinalsBracket, commonService.GetEnumDescription(RoundTypeEnum.Quarterfinals));
