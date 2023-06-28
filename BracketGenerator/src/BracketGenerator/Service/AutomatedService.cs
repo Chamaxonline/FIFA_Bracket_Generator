@@ -149,10 +149,7 @@ namespace BracketGenerator.Service
                 Console.WriteLine($"Match {n}: {team1} vs {team2}");
 
                 // Simulate the match and determine the winning team
-                string winner = SimulateMatch(team1, team2);
-
-                // Store the winner in the next round bracket
-                // Store the winner in the next round bracket               
+                string winner = SimulateMatch(team1, team2);          
 
                 var game = new Game
                 {
